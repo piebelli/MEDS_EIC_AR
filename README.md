@@ -247,6 +247,12 @@ Not yet implemented.
 
 ## Documentation
 
+### Comparison with other autoregressive EHR models
+
+See [`docs/competitor_comparison.md`](docs/competitor_comparison.md) for a side-by-side comparison of
+MEDS-EIC-AR's tokenization, filtering, architecture and inference choices against ETHOS, Curiosity (CoMET),
+CEHR-GPT, Delphi-2M and other autoregressive EHR models, with notes on what would have to change to clone each.
+
 ### Configuration and Controlling Model Structure
 
 This model is configured via Hydra and PyTorch lightning. The configuration structure of this repository is as
